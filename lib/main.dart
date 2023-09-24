@@ -67,7 +67,7 @@ class _CountScreenState extends State<CountScreen> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: [
             Text(
               'Count:',
               style: TextStyle(fontSize: 24),
